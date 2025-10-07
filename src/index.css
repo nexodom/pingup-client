@@ -1,3 +1,25 @@
+@import 'tailwindcss';
+
+/* Define custom variables after Tailwind import */
+@theme {
+  --color-primary: var(--primary-color);
+  --color-background: var(--bg-color);
+  --color-text: var(--text-color);
+  --color-card: var(--card-color);
+}
+
+.light {
+  --bg-color: #ffffff;
+  --text-color: #0f172a;
+  --primary-color: #3b82f6;
+  --card-color: #f8fafc;
+}
+.dark {
+  --bg-color: #0f172a;
+  --text-color: #f8fafc;
+  --primary-color: red;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

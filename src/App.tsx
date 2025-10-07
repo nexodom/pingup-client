@@ -1,10 +1,12 @@
 import './App.css';
+import ThemeToggle from './components/ToggleTheme';
 
 function App() {
   return (
     <>
       <div>
-        <h1>Hello World</h1>
+        <ThemeToggle />
+        <h1 className="text-primary">Hello World</h1>
       </div>
     </>
   );
